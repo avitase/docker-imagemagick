@@ -1,7 +1,7 @@
 # Docker-Imagemagick
 ![Docker Build Status](https://img.shields.io/docker/build/avitase/docker-imagemagick.svg)
 
-The container exposes Ubuntu's default `imagemagick` installation. 
+The container exposes Ubuntu's default [imagemagick](https://www.imagemagick.org/script/index.php) installation. 
 You can use `convert` for instance as
 ```
 > docker run --rm -it docker-imagemagick /bin/bash -c "convert --version"
