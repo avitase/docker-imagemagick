@@ -1,6 +1,6 @@
 #!/bin/bash
 
-IMAGE=docker-imagemagick
+IMAGE=avitase/docker-imagemagick:latest
 ARGS=$@
 
 exec docker run --rm -i --user="$(id -u):$(id -g)" \
