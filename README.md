@@ -12,7 +12,7 @@ Features: Cipher DPC Modules OpenMP
 Delegates (built-in): bzlib djvu fftw fontconfig freetype jbig jng jpeg lcms lqr ltdl lzma openexr pangocairo png tiff wmf x xml zlib
 ```
 
-We provide a script [convert.sh](convert.sh) that mounts your current working dir to `/workdir` and calls `imagemagick`s `convert` with the arguemnts you prepend, e.g.
+We provide a script [convert.sh](convert.sh) that mounts your current working dir to `/workdir` and calls `imagemagick`'s `convert` with the arguments that you prepend to the bash script, e.g.
 ```
 ./convert.sh --version
 Version: ImageMagick 6.9.7-4 Q16 x86_64 20170114 http://www.imagemagick.org
