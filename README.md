@@ -4,7 +4,7 @@
 The container exposes Ubuntu's default installation of [imagemagick](https://www.imagemagick.org/script/index.php). 
 You can use `convert` for instance as
 ```
-> docker run --rm -it docker-imagemagick /bin/bash -c "convert --version"
+> docker run --rm -it avitase/docker-imagemagick:latest /bin/bash -c "convert --version"
 Version: ImageMagick 6.9.7-4 Q16 x86_64 20170114 http://www.imagemagick.org
 Copyright: © 1999-2017 ImageMagick Studio LLC
 License: http://www.imagemagick.org/script/license.php
